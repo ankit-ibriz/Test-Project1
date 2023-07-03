@@ -2,7 +2,7 @@ const express = require('express')
 const app = express();
 
 app.get('/names', (req, res) => {
-    res.send("Ankit");
+    res.send("Aman");
 })
 
 app.listen(5000, () => {

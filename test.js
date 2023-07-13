@@ -1,12 +1,15 @@
 const express = require('express')
 const app = express();
 
-var cors =require("cors");
 
-app.use(cors());
+app.get('/', (req, res) => {
+    res.json({
+        "Hi": "This is Ankit"
+    })
+})
 
-app.get('/names', (req, res) => {
-    res.send("Aman");
+app.get('/name', (req, res) => {
+    res.send("Hey, This is a new tab");
 })
 
 app.listen(5000, () => {

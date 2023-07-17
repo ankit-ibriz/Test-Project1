@@ -4,7 +4,8 @@ const app = express();
 
 app.get('/', (req, res) => {
     res.json({
-        "Hi": "This is Ankit"
+        "Hi": "This is Ankit",
+        "Hi2": "This is Ankit2"
     })
 })
 

@@ -5,7 +5,7 @@ const app = express();
 app.get('/', (req, res) => {
     res.json({
         "Hi": "This is Ankit",
-        "Hi2": "This is Ankit2",
+        "Hi2": "You did it",
         "Hello": "CI/CD Testing"
     })
 })

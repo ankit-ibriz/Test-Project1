@@ -8,7 +8,7 @@ env:
   AWS_REGION: us-east-1                   # set this to your preferred AWS region, e.g. us-west-1
   ECS_SERVICE: docker-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: backend-demo                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: arn:aws:ecs:us-east-1:750529513992:task-definition/backend-docker:4 # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: ECS_task_definition.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: demo           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition

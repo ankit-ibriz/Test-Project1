@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.json({
         "Hi": "This is Ankit",
         "Hi2": "You did it",
-        "Hello": "CI/CD Testing"
+        "Hello": "Testing Testing"
     })
 })
 
